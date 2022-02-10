@@ -1,0 +1,27 @@
+.rightsidebar {
+	flex: 3.5;
+	margin: 0 20px;
+}
+
+.rightElement {
+	padding: 25px;
+	border-radius: 15px;
+	background-color: #fdfcfc;
+}
+
+.sectionTop {
+	margin-bottom: 20px;
+}
+
+.eventImg {
+	height: 60px;
+	max-height: 60px;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+	.rightsidebar {
+		display: none;
+	}
+}
