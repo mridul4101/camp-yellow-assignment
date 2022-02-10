@@ -1,0 +1,45 @@
+.leftsidebar {
+	flex: 3.5;
+	margin: 0 20px;
+}
+
+.sectionTop {
+	margin-bottom: 22px;
+}
+
+.leftElement {
+	padding: 25px;
+	border-radius: 15px;
+	background-color: #fdfcfc;
+}
+
+.profileImg {
+	height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+	margin-bottom: 20px;
+}
+
+.profileStatsItem {
+	padding: 7.5px 0;
+	border: 0;
+    background-color: #fdfcfc;
+}
+
+.profileStatsItem > span {
+    margin-left: 28px;
+}
+
+.eventImg {
+	cursor: pointer;
+	height: 60px;
+	max-height: 60px;
+	margin: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 576px) {
+	.leftsidebar {
+		display: none;
+	}
+}
