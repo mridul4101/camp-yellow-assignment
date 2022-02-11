@@ -6,7 +6,9 @@ function Navbar() {
     return <nav className={`${classes.navbar} navbar sticky-top navbar-expand-lg navbar-light shadow-sm`}>
         <div className="container">
             <Link className="navbar-brand fw-bold" href="/">
-                <span className='text-warning'>CAMP</span> <span className="bg-warning p-1">YELLOW</span>
+                <div>
+                    <span className='text-warning'>CAMP</span> <span className="bg-warning p-1">YELLOW</span>
+                </div>
             </Link>
 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItemsContainer" aria-controls="navItemsContainer" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +23,7 @@ function Navbar() {
                         <span className={classes.searchIcon}>
                             <i aria-hidden className="fas fa-search"></i>
                         </span>
-                        <input className={classes.searchInput} type="text" placeholder="Search"/>
+                        <input className={classes.searchInput} type="text" placeholder="Search" />
                     </div>
 
                     <div className={`${classes.navItems} d-flex`}>
