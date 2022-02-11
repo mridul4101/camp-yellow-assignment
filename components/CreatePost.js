@@ -12,7 +12,7 @@ function CreatePost() {
 
             <hr style={{ width: '100%' }} />
 
-            <div className="d-flex justify-content-between px-5">
+            <div className="d-flex justify-content-between">
 
                 <div className={`${classes.postAttachments} d-flex align-items-center`}>
                     <span className={classes.attachmentIcon}>
