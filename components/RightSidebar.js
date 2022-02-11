@@ -38,15 +38,15 @@ function RightSidebar() {
                 <div className="events">
                     <div className="event d-flex align-items-center ">
                         <img src='/images/clubs.jpg' className={classes.eventImg}></img>
-                        <h6 className='fw-normal'>Dummy Event 1</h6>
+                        <h6 className='fw-normal text-primary'>Dummy Event 1</h6>
                     </div>
                     <div className="event d-flex align-items-center ">
                         <img src='/images/clubs.jpg' className={classes.eventImg}></img>
-                        <h6 className='fw-normal'>Dummy Event 2</h6>
+                        <h6 className='fw-normal text-primary'>Dummy Event 2</h6>
                     </div>
                     <div className="event d-flex align-items-center ">
                         <img src='/images/clubs.jpg' className={classes.eventImg}></img>
-                        <h6 className='fw-normal'>Dummy Event 3</h6>
+                        <h6 className='fw-normal text-primary'>Dummy Event 3</h6>
                     </div>
                 </div>
 
