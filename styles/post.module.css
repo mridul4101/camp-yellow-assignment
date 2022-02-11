@@ -75,3 +75,13 @@
 .commentContainer > span > i:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 786px) {
+    .postLinks {
+        flex-direction: column;
+        font-size: 16px;
+    }
+    .postBtn {
+        font-size: 20px;
+    }
+}

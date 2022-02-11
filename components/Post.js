@@ -42,9 +42,8 @@ function Post(props) {
                         <i className="fa-solid fa-thumbs-up" style={{ fontSize: "18px", color: "purple" }} />
                         <span className="mx-2">{props.post.postLikes} people like this</span>
                     </div>
-                    <div className="d-flex justify-content-between px-1">
-                        <span className="mx-3">{props.post.postComments} comments</span>
-                        <span>{props.post.postShares} shares</span>
+                    <div className="px-1">
+                        <span>{props.post.postComments} comments</span>
                     </div>
                 </div>
             </div>
@@ -53,16 +52,16 @@ function Post(props) {
 
             <div className="d-flex justify-content-around mt-3">
                 <span className={`d-flex align-items-center ${classes.postLinks}`}>
-                    <i className={`fa-solid fa-thumbs-up px-2 ${classes.postBtn}`}></i> Like
+                    <i className={`fa-solid fa-thumbs-up px-2 ${classes.postBtn}`}></i> <span>Like</span>
                 </span>
                 <span className={`d-flex align-items-center ${classes.postLinks}`}>
-                    <i className={`fa-solid fa-comment-dots px-2 ${classes.postBtn}`}></i> Comment
+                    <i className={`fa-solid fa-comment-dots px-2 ${classes.postBtn}`}></i> <span>Comment</span>
                 </span>
                 <span className={`d-flex align-items-center ${classes.postLinks}`}>
-                    <i className={`fa-solid fa-share px-2 ${classes.postBtn}`}></i> Share
+                    <i className={`fa-solid fa-share px-2 ${classes.postBtn}`}></i> <span>Share</span>
                 </span>
                 <span className={`d-flex align-items-center ${classes.postLinks}`}>
-                    <i className={`fa-solid fa-paper-plane px-2 ${classes.postBtn}`}></i> Send
+                    <i className={`fa-solid fa-paper-plane px-2 ${classes.postBtn}`}></i> <span>Send</span>
                 </span>
             </div>
 
