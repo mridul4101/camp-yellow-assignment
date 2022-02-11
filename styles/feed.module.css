@@ -1,0 +1,14 @@
+.feed {
+	flex: 7;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+	.feed {
+		margin-right: 20px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.feed {
+		margin: 0 10px;
+	}
+}

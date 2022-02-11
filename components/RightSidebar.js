@@ -28,7 +28,7 @@ function RightSidebar() {
                 }
 
                 <div className="d-flex justify-content-center">
-                    <button type='button' className='btn btn-outline-primary my-2' style={{borderRadius: '22px'}}>Check for more news</button>
+                    <button type='button' className='btn btn-outline-primary my-2' style={{borderRadius: '22px'}}>Click for more news</button>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@ function RightSidebar() {
                 </div>
 
                 <div className="d-flex justify-content-center">
-                    <button type='button' className='btn btn-outline-primary my-2' style={{borderRadius: '22px'}}>Check for more oppotunities</button>
+                    <button type='button' className='btn btn-outline-primary my-2' style={{borderRadius: '32px'}}>Click for more opportunities</button>
 
                 </div>
 

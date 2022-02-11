@@ -1,0 +1,73 @@
+.post {
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	background-color: #fdfcfc;
+}
+
+.profileImg {
+	max-height: 64px;
+	margin-right: 20px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.seeBtn {
+	cursor: pointer;
+	font-weight: lighter;
+	margin-left: 4px;
+	text-decoration: underline;
+}
+
+.hidden {
+	display: none;
+}
+
+.postImg {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.postLinks {
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.postLinks:hover > i {
+	color: rgb(95, 1, 95);
+}
+
+.postBtn {
+	font-size: 22px;
+	color: purple;
+}
+
+.commentImg {
+	border-radius: 50%;
+	border: 2px solid black;
+	max-height: 45px;
+	margin-right: 10px;
+}
+
+.commentContainer {
+	width: 100%;
+	border-radius: 22px;
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+
+.commentInput {
+	border: 0;
+	width: 100%;
+	padding: 5px 8px;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.commentContainer > span > i {
+    font-size: 20px;
+}
+
+.commentContainer > span > i:hover {
+    cursor: pointer;
+}

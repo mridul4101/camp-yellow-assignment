@@ -1,11 +1,11 @@
 .rightsidebar {
-	flex: 3.5;
+	flex: 3.2;
 	margin: 0 20px;
 }
 
 .rightElement {
 	padding: 25px;
-	border-radius: 15px;
+	border-radius: 8px;
 	background-color: #fdfcfc;
 }
 

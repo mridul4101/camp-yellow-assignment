@@ -18,6 +18,8 @@ function LeftSidebar() {
                 <img src='/images/DP.png' alt="profile picture" className={classes.profileImg} />
                 <h4>{userDetails.name}</h4>
                 <span className='text-center fw-lighter'>{userDetails.description}</span>
+                
+                <hr style={{width: '120%'}}/>
 
                 <ul className="list-group">
                     <li className={`${classes.profileStatsItem} list-group-item d-flex justify-content-between align-items-center`}>
@@ -53,7 +55,7 @@ function LeftSidebar() {
                 </div>
 
                 <div className="d-flex justify-content-center">
-                    <button className='btn btn-outline-primary mt-2' style={{ borderRadius: '22px' }}>Discover more events and groups</button>
+                    <button className='btn btn-outline-primary mt-2' style={{ borderRadius: '32px' }}>Discover more groups and clubs</button>
                 </div>
             </div>
 

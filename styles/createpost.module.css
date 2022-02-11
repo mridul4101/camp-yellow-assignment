@@ -1,0 +1,32 @@
+.createpost {
+	padding: 20px;
+	background-color: #fdfcfc;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.profileImg {
+	max-height: 70px;
+    border-radius: 50%;
+    border: 3px solid black;
+	margin-right: 20px;
+}
+
+.postInput {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 22px;
+}
+
+.postAttachments {
+    cursor: pointer;
+}
+
+.attachmentIcon {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.attachmentIcon > i {
+    color: #ffc107;
+}
