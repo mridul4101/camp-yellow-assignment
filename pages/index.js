@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script';
 
 import Navbar from "../components/Navbar";
 import LeftSidebar from "../components/LeftSidebar";
@@ -21,11 +22,11 @@ export default function Home() {
                     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
                     crossOrigin="anonymous"
                 ></link>
-                <script
+                <Script
                     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
                     crossOrigin="anonymous"
-                ></script>
+                ></Script>
 
                 {/* Fontawesome */}
                 <link
@@ -34,13 +35,13 @@ export default function Home() {
                     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
                     crossOrigin="anonymous"
                 ></link>
-                <script
+                <Script
                     src="https://kit.fontawesome.com/a30bb40356.js"
                     crossOrigin="anonymous"
-                ></script>
+                ></Script>
 
                 {/* jquery */}
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></Script>
             </Head>
 
             <div>

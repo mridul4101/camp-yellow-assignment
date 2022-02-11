@@ -1,12 +1,13 @@
 // Replace classes with classes
+import Link from "next/link";
 import classes from "../styles/navbar.module.css";
 
 function Navbar() {
     return <nav className={`${classes.navbar} navbar sticky-top navbar-expand-lg navbar-light shadow-sm`}>
         <div className="container">
-            <a className="navbar-brand fw-bold" href="/">
+            <Link className="navbar-brand fw-bold" href="/">
                 <span className='text-warning'>CAMP</span> <span className="bg-warning p-1">YELLOW</span>
-            </a>
+            </Link>
 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItemsContainer" aria-controls="navItemsContainer" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
