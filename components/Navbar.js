@@ -5,8 +5,8 @@ import classes from "../styles/navbar.module.css";
 function Navbar() {
     return <nav className={`${classes.navbar} navbar sticky-top navbar-expand-lg navbar-light shadow-sm`}>
         <div className="container">
-            <Link className="navbar-brand fw-bold" href="/">
-                <div>
+            <Link className="navbar-brand" href="/">
+                <div className="fw-bold">
                     <span className='text-warning'>CAMP</span> <span className="bg-warning p-1">YELLOW</span>
                 </div>
             </Link>
