@@ -64,6 +64,10 @@
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.commentInput[type="text"] {
+    outline: 0;
+  }
+
 .commentContainer > span > i {
     font-size: 20px;
 }
